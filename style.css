@@ -1,15 +1,11 @@
-title {
-  text-align: center;
-}
-
 img {
-margin: auto;
-padding: auto;
+  display: block;
+  margin: auto;
 }
 
-p {
+h2 {
   text-align: center;
   text-size-adjust: 15px;
   text-decoration-thickness: 2px;
-  color: rgb(255 0 0)
+  color: rgb(255 0 0);
 }
