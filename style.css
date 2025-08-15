@@ -13,21 +13,26 @@ img {
 }
 
 h2 {
-  font-family: lucida;
+  font-family: monospace;
   text-align: center;
-  margin: auto;
-  width: 150px;
+  line-height: 1.6;
+  margin: 20px auto;
+  width: 120px;
+  max-width: 140px;
   font-size: 7px;
   text-decoration-thickness: 2px;
+  background-color: dimgray;
+  background-size: auto;
+  border-radius: 9px;
   color: rgb(0 0 0);
 }
 
 h3 {
-  font-family: lucida;
+  font-family: monospace;
   text-align: center;
   margin: auto;
   width: 150px;
-  font-size: 7px;
+  font-size: 7%;
   text-decoration-thickness: 2px;
   color: rgb(0 0 0);
 }
