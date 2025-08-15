@@ -1,4 +1,5 @@
 h1 {
+  font-family: monospace, "Lucida Sans";
   text-align: center;
   text-size-adjust: 20px;
   text-decoration-thickness: 4px;
@@ -12,7 +13,9 @@ img {
 }
 
 h2 {
-  text-align: center;
+  font-family: monospace, "Lucida Sans";
+  margin: auto;
+  padding: auto;
   text-size-adjust: 15px;
   text-decoration-thickness: 2px;
   color: rgb(0 0 0);
