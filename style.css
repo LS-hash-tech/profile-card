@@ -12,11 +12,13 @@ img {
   border-radius: 9px;
 }
 
-h2 {
+h2,
+h3 {
   font-family: lucida;
+  text-align: center;
   margin: auto;
   width: 150px;
-  font-size: 15px;
+  font-size: 7px;
   text-decoration-thickness: 2px;
   color: rgb(0 0 0);
 }
