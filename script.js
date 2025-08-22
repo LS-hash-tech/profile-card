@@ -3,7 +3,7 @@
   const track = slider.querySelector(".slider-main-functions");
   const slides = Array.from(track.querySelectorAll(".slide"));
   const prevBtn = slider.querySelector(".slider-button-previous");
-  const nextBtn = slider.querySelector(".slide-button-next");
+  const nextBtn = slider.querySelector(".slider-button-next"); // fixed
   const dotsNav = slider.querySelector(".slider-dots");
 
   let current = 0;
@@ -11,6 +11,7 @@
   let moveX = 0;
   let isDragging = false;
 
+  // Build dots
   slides.forEach((_, i) => {
     const dot = document.createElement("button");
     dot.className = "dot";
