@@ -83,7 +83,7 @@ h1 {
 }
 
 .dot.active {
-  background: black;
+  background: linear-gradient(180deg, #e0e0e0, #bdbdbd);
 }
 
 h2 {

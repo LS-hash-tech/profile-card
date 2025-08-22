@@ -11,7 +11,6 @@
   let moveX = 0;
   let isDragging = false;
 
-  // Create dots dynamically
   slides.forEach((_, i) => {
     const dot = document.createElement("button");
     dot.className = "dot";
